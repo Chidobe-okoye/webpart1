@@ -6,8 +6,8 @@ Maddison Bakery Website (Part 1 - HTML Only)
 ## Student Information
 - **Student Name:** [Chidobe okoye]  
 - **Student Number:** [ ST10500842]  
-Module: Web Development (Introduction) - WEDE5020POE  
-**Submission Date**: April 2026  
+Module: Web Development 
+**Submission Date**: April 20  2026  
 
 **## Project Overview**
 This is Part 1 of the website project for **Maddison Bakery**, a family-run artisanal bakery in Cape Town.  
