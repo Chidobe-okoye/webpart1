@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Maddison Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Maddison <span>Bakery</span></a>
+            <button 
+                   class="nav-toggle" 
+                   aria-label="Toggle navigation menu"
+                   aria-expanded="false"
+                   onclick="
+                     this.classList.toggle('open');
+                     document.querySelector('.nav-links').classList.toggle('open');
+                     this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+               ">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li class="nav-cta"><a href="order.html">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you — drop us a message or come visit us!</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="contact-layout">
+
+                    <!-- Contact Information Column -->
+                    <div class="contact-info">
+                        <h3>Visit or Reach Us</h3>
+
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-text">
+                                <strong>Address</strong>
+                                <span>Shop 12, V&amp;A Waterfront, Cape Town</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-text">
+                                <strong>Phone</strong>
+                                <span><a href="tel:0628713598" class="contact-link">062 871 3598</a></span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-text">
+                                <strong>Email</strong>
+                                <span><a href="mailto:hello@maddisonbakery.co.za" class="contact-link">hello@maddisonbakery.co.za</a></span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">🕐</div>
+                            <div class="info-text">
+                                <strong>Opening Hours</strong>
+                                <span>Mon – Sat: 7:00am – 5:00pm<br>Sunday: Closed</span>
+                            </div>
+                        </div>
+
+                        <!-- Map -->
+                        <div class="map-wrap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.0!2d18.410!3d-33.903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5f0f0f0f0f0f%3A0x0!2sV%26A%20Waterfront%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1713000000000"
+                                width="100%"
+                                height="260"
+                                class="contact-map"
+                                allowfullscreen=""
+                                loading="lazy"
+                                title="Maddison Bakery on Google Maps">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="form-card">
+
+                        <!-- Success state (hidden until submit) -->
+                        <div class="form-success" id="formSuccess">
+                            <div class="success-icon">✓</div>
+                            <h3>Message Sent!</h3>
+                            <p>Thanks for reaching out. We'll get back to you within one business day.</p>
+                            <a href="#" class="btn btn-primary" onclick="resetForm(event)">Send Another Message</a>
+                        </div>
+
+                        <!-- Contact Form Body -->
+                        <div id="formBody">
+                            <div class="form-card-header">
+                                <h3>Send Us a Message</h3>
+                                <p>We typically reply within one business day.</p>
+                            </div>
+
+                            <form id="contactForm" novalidate>
+
+                                <!-- Name + Phone row -->
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Full Name <span class="lbl-required">*</span></label>
+                                        <div class="input-wrap">
+                                            <span class="input-icon">👤</span>
+                                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <div class="input-wrap">
+                                            <span class="input-icon">📞</span>
+                                            <input type="tel" id="phone" name="phone" placeholder="e.g. 071 234 5678">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="form-group">
+                                    <label for="email">Email Address <span class="lbl-required">*</span></label>
+                                    <div class="input-wrap">
+                                        <span class="input-icon">✉️</span>
+                                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                                    </div>
+                                </div>
+
+                                <!-- Enquiry type -->
+                                <div class="form-group">
+                                    <label for="enquiry">Enquiry Type <span class="lbl-required">*</span></label>
+                                    <div class="input-wrap select-wrap">
+                                        <span class="input-icon">🎂</span>
+                                        <select id="enquiry" name="enquiry" required>
+                                            <option value="">Select a topic…</option>
+                                            <option value="general">General Question</option>
+                                            <option value="custom-cake">Custom Cake Order</option>
+                                            <option value="catering">Catering Enquiry</option>
+                                            <option value="allergy">Dietary & Allergy Info</option>
+                                            <option value="feedback">Feedback / Compliment</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-section-divider">Your Message</div>
+
+                                <!-- Message -->
+                                <div class="form-group">
+                                    <label for="message">Message <span class="lbl-required">*</span></label>
+                                    <div class="input-wrap textarea-wrap">
+                                        <span class="input-icon">💬</span>
+                                        <textarea id="message" name="message" rows="5"
+                                            placeholder="Tell us how we can help you…"
+                                            maxlength="500" required
+                                            oninput="updateCounter(this)"></textarea>
+                                    </div>
+                                    <span class="char-counter" id="charCount">0 / 500</span>
+                                </div>
+
+                                <button type="submit" class="form-submit-btn" onclick="handleSubmit(event)">
+                                    Send Message <span class="btn-arrow">→</span>
+                                </button>
+
+                                <p class="form-privacy">🔒 Your details are kept private and never shared.</p>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">Maddison <span class="footer-logo-accent">Bakery</span></div>
+                    <p>A family-run artisanal bakery in Cape Town, baking with love since 2019.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="order.html">Order Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:0628713598">062 871 3598</a></li>
+                        <li><a href="mailto:hello@maddisonbakery.co.za">hello@maddisonbakery.co.za</a></li>
+                        <li><span class="footer-address">Shop 12, V&amp;A Waterfront<br>Cape Town</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Maddison Bakery • Cape Town • Made with love 🧁</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Contact Form Interactions -->
+    <script>
+        function updateCounter(el) {
+            const counter = document.getElementById('charCount');
+            const len = el.value.length;
+            const max = el.maxLength;
+            counter.textContent = len + ' / ' + max;
+            counter.classList.toggle('warn', len >= max * 0.9);
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const form = document.getElementById('contactForm');
+            // Validate Required Form Fields
+            const inputs = form.querySelectorAll('[required]');
+            let valid = true;
+            inputs.forEach(inp => { if (!inp.value.trim()) valid = false; });
+            if (!valid) { form.reportValidity(); return; }
+
+            // Display Success State
+            document.getElementById('formBody').style.display = 'none';
+            document.getElementById('formSuccess').classList.add('visible');
+        }
+
+        function resetForm(e) {
+            e.preventDefault();
+            document.getElementById('contactForm').reset();
+            document.getElementById('charCount').textContent = '0 / 500';
+            document.getElementById('formSuccess').classList.remove('visible');
+            document.getElementById('formBody').style.display = '';
+        }
+    </script>
+</body>
+</html>

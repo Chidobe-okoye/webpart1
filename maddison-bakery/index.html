@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maddison Bakery | Fresh Homemade Bakes — Cape Town</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Maddison <span>Bakery</span></a>
+            <button 
+                class="nav-toggle" 
+                aria-label="Toggle menu"
+                onclick="
+                    this.classList.toggle('open');
+                    document.querySelector('.nav-links').classList.toggle('open');
+                   ">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="nav-cta"><a href="order.html">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">🌿 Baked Fresh Every Morning</div>
+            <h2>Warmth in Every<br>Single Bite</h2>
+            <p>Homemade cakes, pastries &amp; warm coffee crafted with love<br>in the heart of Cape Town since 2019.</p>
+            <!-- Hero Action Buttons -->
+            <div class="hero-btns">
+                <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+                <a href="order.html" class="btn btn-outline">Order Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Bakery Highlights Section -->
+        <section class="section">
+            <div class="container">
+                <div class="welcome-grid">
+                    <div class="welcome-text">
+                        <p class="section-subtitle">Our Story</p>
+                        <h2 class="section-title">Welcome to Maddison Bakery</h2>
+                        <div class="divider"></div>
+                        <p>We are a family-run artisanal bakery established in 2019 in Cape Town. Everything is baked fresh every morning using quality local ingredients, with warmth and care baked into every loaf, cake, and pastry.</p>
+                        <p>Our goal is to bring joy through homemade goodness in a warm and welcoming environment — your neighbourhood spot for a perfect morning.</p>
+                        <a href="about.html" class="btn btn-teal mt-12">Meet Our Team</a>
+                    </div>
+                    <!-- Bakery Image -->
+                    <div class="welcome-img">
+                        <img src="images/bakery-hero.jpg" alt="Inside Maddison Bakery">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bakery Highlights Section -->
+        <div class="highlights">
+            <div class="container">
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🌾</div>
+                        <h3>Local Ingredients</h3>
+                        <p>We source from local Cape Town suppliers to ensure freshness and support our community.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎂</div>
+                        <h3>Custom Cakes</h3>
+                        <p>Bespoke celebration cakes crafted to your vision — birthdays, weddings, and every occasion in between.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">☕</div>
+                        <h3>Warm Atmosphere</h3>
+                        <p>A cosy café space where neighbours become friends over great coffee and fresh bakes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta-strip">
+            <div class="container">
+               <h2>Ready to place a custom order?</h2>
+               <p>Birthdays, catering, or a simple treat — we've got you covered.</p>
+                <a href="order.html" class="btn btn-primary">Order Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">Maddison <span class="footer-logo-accent">Bakery</span></div>
+                    <p>A family-run artisanal bakery in Cape Town, baking with love since 2019.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="order.html">Order Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:0628713598">062 871 3598</a></li>
+                        <li><a href="mailto:hello@maddisonbakery.co.za">hello@maddisonbakery.co.za</a></li>
+                        <li><span class="footer-address">Shop 12, V&amp;A Waterfront<br>Cape Town</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Maddison Bakery • Cape Town • Made with love 🧁</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
