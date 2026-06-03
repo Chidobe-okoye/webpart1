@@ -201,7 +201,7 @@ The following corrections were made based on Part 1 feedback:
 
 # AI Usage Acknowledgement
 
-Artificial intelligence tools were used to assist with documentation refinement, code explanation, responsive design guidance, and proofreading during the development of this academic project. All implementation, testing, editing, and final submission decisions were completed by the student.
+Artificial intelligence tools were used to assist with documentation refinement, code explanation, responsive design guidance, and proofreading during the development of this academic project. All implementation, testing, editing, and final submission decisions were completed by myself.
 
 ---
 
