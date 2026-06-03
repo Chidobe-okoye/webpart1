@@ -171,7 +171,7 @@ The following corrections were made based on Part 1 feedback:
 * Improved proposal documentation
 * Added additional references
 * Improved budget explanation
-* Updated sitemap
+*  Upload sitemap
 * Improved file structure
 * Fixed image paths
 * Improved semantic HTML structure
