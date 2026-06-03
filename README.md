@@ -1,4 +1,4 @@
-# Maddison Bakery Website
+# Maddison Bakery Website - part 2
 
 ## Project Overview
 
