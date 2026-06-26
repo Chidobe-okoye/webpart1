@@ -2,8 +2,7 @@
 
 # Maddison Bakery Web Interface Development (PoE Part 3)
 
-## Module Details
-* **Module Code:** WEDE5020
+
 * **Project Name:** Artisanal Bakery Digital Commerce Platform
 * **Repository URL:** [https://github.com/Chidobe-okoye/webpart1](https://github.com/Chidobe-okoye/webpart1)
 * **Production Live URL:** [https://chidobe-okoye.github.io/webpart1/maddison-bakery/index.html](https://chidobe-okoye.github.io/webpart1/maddison-bakery/index.html)
@@ -49,7 +48,7 @@ The interactive modules use custom event listener loops to validate customer inf
 A custom filtering layer reads input criteria natively to let users target specific bakery item cards in real time without refreshing the client browser window.
 
 #### UI Verification: Search Query Execution
-![Search Menu Feature](./images/screenshot-search.png)
+![Search Menu Feature](.images/screenshot-search.png)
 
 *(Note: If your screenshot filename is different, rename image_4.png to match your file name)*
 
