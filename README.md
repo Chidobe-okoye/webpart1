@@ -53,7 +53,7 @@ maddison-bakery/
 ├── order.html              # Custom Order Request Processing Pipeline
 ├── robots.txt              # Production Web Crawler Instruction Module
  sitemap.xml             # Canonical Index Search Index Mapping Matrix
-
+ README.md
  ---
 
 ## 📚 References
