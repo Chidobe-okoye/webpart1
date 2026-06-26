@@ -32,16 +32,9 @@ As verified during the formative milestones, all previous feedback parameters re
 ### 1. Robust Input Field & Contact Module Validation
 The interactive modules use custom event listener loops to validate customer information before submission processing. If incorrect formats or empty fields are captured, data transmission is suspended, and contextual error highlights appear.
 
-#### UI Verification: Validation Logic Action State
-![Form Validation State](./images/screenshot-validation.png)
-*(Replace this with your form validation screenshot)*
 
 ### 2. Live Catalog Search Component (e.g., "Chocolate Cake" Query)
 A custom filtering layer reads input criteria natively to let users target specific bakery item cards in real time without refreshing the client browser window.
-
-#### UI Verification: Search Query Execution
-![Search Menu Feature](./images/screenshot-search.png)
-*(Replace this with your search menu screenshot)*
 
 ---
 
@@ -60,3 +53,20 @@ maddison-bakery/
 ├── order.html              # Custom Order Request Processing Pipeline
 ├── robots.txt              # Production Web Crawler Instruction Module
  sitemap.xml             # Canonical Index Search Index Mapping Matrix
+
+ ---
+
+## 📚 References
+99designs. (n.d.). Website usability principles. Available at: https://99designs.com/blog/web-digital/website-usability-principles/
+
+Google Fonts. (n.d.). Fonts library. Available at: https://fonts.google.com/
+
+Leaflet.js. (n.d.). Open-source JavaScript library for mobile-friendly interactive maps. Available at: https://leafletjs.com/
+
+MDN Web Docs. (n.d.). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+OpenAI. (2026). ChatGPT (GPT-5.5) [Large language model]. Available at: https://chat.openai.com/
+
+Unsplash. (n.d.). Free high-quality images. Available at: https://unsplash.com/
+
+W3Schools. (n.d.). HTML Responsive Web Design. Available at: https://www.w3schools.com/html/html_responsive.asp
