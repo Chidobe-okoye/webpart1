@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://chidobe-okoye.github.io/webpart1/maddison-bakery/index.html</loc>
+      <lastmod>2026-06-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://chidobe-okoye.github.io/webpart1/maddison-bakery/about.html</loc>
+      <lastmod>2026-06-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://chidobe-okoye.github.io/webpart1/maddison-bakery/menu.html</loc>
+      <lastmod>2026-06-26</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.90</priority>
+   </url>
+   <url>
+      <loc>https://chidobe-okoye.github.io/webpart1/maddison-bakery/contact.html</loc>
+      <lastmod>2026-06-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://chidobe-okoye.github.io/webpart1/maddison-bakery/order.html</loc>
+      <lastmod>2026-06-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+</urlset>
