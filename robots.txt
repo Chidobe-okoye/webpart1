@@ -1,0 +1,6 @@
+# Robots.txt file built for Maddison Bakery compliance tracking
+User-agent: *
+Allow: /
+
+# Link search engines directly to our formal page map
+Sitemap: https://chidobe-okoye.github.io/webpart1/maddison-bakery/sitemap.xml
