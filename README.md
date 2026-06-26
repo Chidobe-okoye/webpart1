@@ -41,7 +41,7 @@ As verified during the formative milestones, all previous feedback parameters re
 The interactive modules use custom event listener loops to validate customer information before submission processing. If incorrect formats or empty fields are captured, data transmission is suspended, and contextual error highlights appear to enforce form validation logic.
 
 #### UI Verification: Validation Logic Action State
-![Form Validation State](./maddison-bakery/images/image.png)
+![Form Validation State](screenshot-validation.png)
 
 
 ### 2. Live Catalog Search Component (e.g., "Chocolate Cake" Query)
