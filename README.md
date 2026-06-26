@@ -1,8 +1,6 @@
 # Maddison Bakery Web Interface Development (PoE Part 3)
 
-## Module Details
-* **Module Code:** WEDE5020
-* **Project Name:** Artisanal Bakery Digital Commerce Platform
+
 * **Repository URL:** [https://github.com/Chidobe-okoye/webpart1](https://github.com/Chidobe-okoye/webpart1)
 * **Production Live URL:** [https://chidobe-okoye.github.io/webpart1/index.html](https://chidobe-okoye.github.io/webpart1/index.html)
 
