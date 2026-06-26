@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Description -->
+    <meta name="description" content="Explore Maddison Bakery's menu of fresh cakes, pastries, custom celebration cakes and daily baked goods in Cape Town.">
     <title>Menu — Maddison Bakery</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,15 +15,10 @@
         <div class="nav-inner">
             <a href="index.html" class="nav-logo">Maddison <span>Bakery</span></a>
             <button 
-                class="nav-toggle" 
-                aria-label="Toggle navigation menu"
-                aria-expanded="false"
-                onclick="
-                    this.classList.toggle('open');
-                    document.querySelector('.nav-links').classList.toggle('open');
-                    this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
-               ">
-                <span></span><span></span><span></span>
+                    class="nav-toggle"
+                    aria-label="Toggle navigation menu"
+                    aria-expanded="false">              
+                    <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -37,7 +34,7 @@
     <section class="menu-hero">
         <div class="container">
             <p class="section-subtitle">Freshly baked daily</p>
-            <h2 class="section-title">Our Menu</h2>
+            <h1 class="section-title">Our Menu</h1>
             <div class="divider divider-center"></div>
             <p class="menu-hero-text">Everything is made from scratch each morning. Prices and availability may vary — ask us about today's specials!</p>
             <div class="menu-note">🎂 Custom cakes &amp; orders are always welcome — <a href="order.html" class="menu-note-link">place a custom order</a></div>
@@ -47,12 +44,19 @@
     <main>
         <section class="section">
             <div class="container">
-                <h3 class="menu-section-heading">Celebration Cakes</h3>
+                <h2 class="menu-section-heading">Celebration Cakes</h2>
                 <div class="divider"></div>
+
+                  <!-- SEARCH BOX -->
+                  <div class="menu-search-box">
+                      <label for="menuSearch">Search our menu</label>
+                      <input type="text" id="menuSearch" placeholder="Search cakes, pastries, chocolate, carrot...">
+                      <p id="menuSearchMessage" class="search-message"></p>
+                 </div>
 
                 <!-- Menu Cards Grid -->
                 <div class="menu-grid">
-
+                 
                     <!-- Birthday Cake -->
                     <div class="menu-card">
                         <div class="menu-card-img">
@@ -115,11 +119,11 @@
 
                     <!-- Custom Order Card -->
                     <div class="menu-card custom-order-card">
-                       <div class="custom-order-icon">✉️</div>
-                       <h3>Custom Order?</h3>
-                       <p>Tell us your vision — we'll bake it for you.</p>
-                       <a href="order.html" class="btn btn-primary">Request a Quote</a>
-                 </div>
+                        <div class="custom-order-icon">✉️</div>
+                        <h3>Custom Order?</h3>
+                        <p>Tell us your vision — we'll bake it for you.</p>
+                        <a href="order.html" class="btn btn-primary">Request a Quote</a>
+                    </div>
 
                 </div>
             </div>
@@ -158,6 +162,12 @@
             </div>
         </div>
     </footer>
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+       <span class="lightbox-close">&times;</span>
+       <img class="lightbox-img" id="lightboxImg" src="" alt="Expanded bakery item">
+    </div>
 
+     <script src="js/script.js"></script>
 </body>
 </html>

@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Maddison Bakery is a family-run artisanal bakery in Cape Town offering fresh cakes, pastries, coffee and custom orders.">
+    
+    <meta name="keywords" content="Maddison Bakery, Cape Town bakery, artisan bakery, homemade cakes, pastries, cupcakes, fresh bread, coffee shop, custom cakes">
     <title>Maddison Bakery | Fresh Homemade Bakes — Cape Town</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav>
         <div class="nav-inner">
             <a href="index.html" class="nav-logo">Maddison <span>Bakery</span></a>
             <button 
                 class="nav-toggle" 
-                aria-label="Toggle menu"
-                onclick="
-                    this.classList.toggle('open');
-                    document.querySelector('.nav-links').classList.toggle('open');
-                   ">
+                aria-label="Toggle navigation menu"
+                aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
@@ -31,13 +32,11 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero">
         <div class="hero-content">
             <div class="hero-badge">🌿 Baked Fresh Every Morning</div>
-            <h2>Warmth in Every<br>Single Bite</h2>
+            <h1>Warmth in Every<br>Single Bite</h1>
             <p>Homemade cakes, pastries &amp; warm coffee crafted with love<br>in the heart of Cape Town since 2019.</p>
-            <!-- Hero Action Buttons -->
             <div class="hero-btns">
                 <a href="menu.html" class="btn btn-primary">View Our Menu</a>
                 <a href="order.html" class="btn btn-outline">Order Now</a>
@@ -46,7 +45,6 @@
     </header>
 
     <main>
-        <!-- Bakery Highlights Section -->
         <section class="section">
             <div class="container">
                 <div class="welcome-grid">
@@ -58,15 +56,16 @@
                         <p>Our goal is to bring joy through homemade goodness in a warm and welcoming environment — your neighbourhood spot for a perfect morning.</p>
                         <a href="about.html" class="btn btn-teal mt-12">Meet Our Team</a>
                     </div>
-                    <!-- Bakery Image -->
                     <div class="welcome-img">
-                        <img src="images/bakery-hero.jpg" alt="Inside Maddison Bakery">
+                        <img
+                           src="images/bakery-hero.jpg"
+                           alt="Fresh artisan bakery interior at Maddison Bakery in Cape Town"
+                           loading="lazy">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Bakery Highlights Section -->
         <div class="highlights">
             <div class="container">
                 <div class="highlights-grid">
@@ -89,7 +88,6 @@
             </div>
         </div>
 
-        <!-- Call-to-Action Section -->
         <section class="cta-strip">
             <div class="container">
                <h2>Ready to place a custom order?</h2>
@@ -99,7 +97,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-inner">
@@ -122,7 +119,7 @@
                     <ul>
                         <li><a href="tel:0628713598">062 871 3598</a></li>
                         <li><a href="mailto:hello@maddisonbakery.co.za">hello@maddisonbakery.co.za</a></li>
-                        <li><span class="footer-address">Shop 12, V&amp;A Waterfront<br>Cape Town</span></li>
+                        <li><span class="footer-address">Shop 12, V&A Waterfront<br>Cape Town</span></li>
                     </ul>
                 </div>
             </div>
@@ -131,6 +128,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
