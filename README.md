@@ -50,6 +50,7 @@ A custom filtering layer reads input criteria natively to let users target speci
 
 #### UI Verification: Search Query Execution
 ![Search Menu Feature](./images/image_4.png)
+
 *(Note: If your screenshot filename is different, rename image_4.png to match your file name)*
 
 ---
