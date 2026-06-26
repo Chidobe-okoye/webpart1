@@ -42,14 +42,14 @@ As verified during the formative milestones, all previous feedback parameters re
 The interactive modules use custom event listener loops to validate customer information before submission processing. If incorrect formats or empty fields are captured, data transmission is suspended, and contextual error highlights appear to enforce form validation logic.
 
 #### UI Verification: Validation Logic Action State
-![Form Validation State](./maddison-bakery/images/image.png)
+![Form Validation State](images/.png)
 
 
 ### 2. Live Catalog Search Component (e.g., "Chocolate Cake" Query)
 A custom filtering layer reads input criteria natively to let users target specific bakery item cards in real time without refreshing the client browser window.
 
 #### UI Verification: Search Query Execution
-![Search Menu Feature](./maddison-bakery/images/image_2.png)
+![Search Menu Feature](./images/screenshot-search.png)
 
 *(Note: If your screenshot filename is different, rename image_4.png to match your file name)*
 
