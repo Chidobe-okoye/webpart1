@@ -1,232 +1,71 @@
-# Maddison Bakery Website - part 2
 
-## Project Overview
 
-Maddison Bakery is a responsive multi-page bakery website created for a fictional artisanal bakery located in Cape Town. The project was developed as part of a Web Development portfolio assignment and focuses on responsive design, usability, accessibility, and visual consistency.
+# Maddison Bakery Web Interface Development (PoE Part 3)
 
-The website allows users to:
-
-* Browse bakery products
-* Learn about the bakery
-* Contact the business
-* Submit custom order enquiries
-
-Part 2 expanded the project significantly by introducing responsive CSS styling, reusable layouts, mobile optimisation, improved navigation, and enhanced documentation.
+## Module Details
+* **Module Code:** WEDE5020
+* **Project Name:** Artisanal Bakery Digital Commerce Platform
+* **Repository URL:** [https://github.com/Chidobe-okoye/webpart1](https://github.com/Chidobe-okoye/webpart1)
+* **Production Live URL:** [https://chidobe-okoye.github.io/webpart1/maddison-bakery/index.html](https://chidobe-okoye.github.io/webpart1/maddison-bakery/index.html)
 
 ---
 
-# Website Goals and Objectives
+## 📝 Project Overview
+Maddison Bakery is a fully responsive, multi-page web platform engineered for an artisanal bakery brand based in Cape Town. Developed through an iterative portfolio framework, this project demonstrates semantic document styling, advanced browser-side validation logic, interactive client-side scripting frameworks, and comprehensive technical SEO compliance.
 
-* Improve Maddison Bakery’s online presence
-* Create a warm and professional bakery brand identity
-* Improve user navigation and accessibility
-* Provide customers with easy access to bakery information
-* Ensure compatibility across desktop, tablet, and mobile devices
-
----
-
-# Technologies Used
-
-* HTML5
-* CSS3
-* CSS Variables
-* CSS Flexbox
-* CSS Grid
-* Media Queries
-* Google Fonts
-* Visual Studio Code
-* GitHub
+The website allows users to seamlessly:
+* Browse high-quality bakery products and menus
+* Learn about the brand's artisanal history and values
+* Engage with the business via responsive contact interfaces
+* Submit custom order enquiries through a secure pipeline
 
 ---
 
-# Pages Included
+## 🔄 Changelog & Feedback Integration Matrix
 
-1. Home Page (`index.html`)
-2. About Us Page (`about.html`)
-3. Menu Page (`menu.html`)
-4. Contact Us Page (`contact.html`)
-5. Order Form Page (`order.html`)
+### Part 1 & Part 2 Feedback Integration ("Done")
+As verified during the formative milestones, all previous feedback parameters regarding layout design systems, desktop typography, structural decoration assets, responsive mobile breakpoint mechanics, and initial repository structures have been fully integrated and accepted. 
+* **Core Fixes:** Optimized proposal documentation, resolved asset paths, structured semantic HTML layouts, implemented custom CSS variables, and integrated a fluid CSS Grid/Flexbox UI layout.
 
----
-
-# File and Folder Structure
- maddison-bakery/
-css/ (Contains the external stylesheet)
-style.css
-images/ (Contains all images)
-index.html (Home page)
-about.html (About page)      
-menu.html (Menu page)
-contact.html (Contact page)
-order.html (Order page)
-
-
-# Design and User Experience
-
-## Colour Palette
-
-The website uses a warm bakery-inspired colour palette supported by additional text, contrast, shadow, and overlay colours.
-
-### Primary Brand Colours
-
-* Caramel: `#D2A679`
-* Cream: `#F5F0E6`
-* Teal: `#006D77`
-
-### Supporting Colours
-
-* Dark Teal: `#005560`
-* Brown: `#7A4F2F`
-* Dark Text: `#3A2A1A`
-* Muted Text: `#7A6A5A`
-* White: `#FFFFFF`
-
-### Additional Styling Colours
-
-Additional colours and transparency values were used for:
-
-* hover effects
-* shadows
-* borders
-* overlays
-* form focus states
-* footer text
-* image contrast
-
-CSS variables were used to keep the main colour system consistent and easy to update across all pages.
-
-## Typography
-
-* Playfair Display was used for headings
-* Poppins was used for body text
-
-These fonts improve readability while maintaining an elegant bakery aesthetic.
-
-## Layout and Responsiveness
-
-The website uses responsive layouts built with CSS Grid and Flexbox. Media queries were implemented to ensure usability across:
-
-* Desktop
-* Tablet
-* Mobile devices
-
-Navigation, forms, buttons, grids, and content sections automatically adjust to different screen sizes.
+### Part 3 Architectural Enhancements & Corrections
+1. **Robust Form Architecture Hardening:** Migrated legacy input actions to programmatic event listener attachments within the contact and order sections. The system handles custom error state classes natively—blocking data transmissions if malformed data strings or empty inputs are detected.
+2. **Product Catalog Search Implementation:** Engineered a dynamic client-side filtering component. Users can input specific text strings (such as a search query for "Chocolate Cake") to seamlessly mask non-matching structural card layouts in real time.
+3. **Interactive Map Realignment:** Swapped old non-functional iframe nodes on the contact layer with an interactive Leaflet.js rendering engine mapping live geographic coordinates.
+4. **Asynchronous UI Simulations:** Configured structured DOM injection routines that visually output simulated confirmation receipts to the customer upon successful data verification.
+5. **Technical SEO Infrastructure:** Implemented production-ready `robots.txt` configuration routing rules and standard-compliant XML mapping vectors (`sitemap.xml`) referencing live production URLs.
 
 ---
 
-# Responsive Testing Evidence
+## 🛠️ Feature Verification & UI Evidence
 
-## Desktop View
+### 1. Robust Input Field & Contact Module Validation
+The interactive modules use custom event listener loops to validate customer information before submission processing. If incorrect formats or empty fields are captured, data transmission is suspended, and contextual error highlights appear to enforce form validation logic.
 
-![Desktop View](maddison-bakery/images/desktop-view.png)
+#### UI Verification: Validation Logic Action State
+![Form Validation State](./images/image_4.png)
+*(Note: If your screenshot filename is different, rename image_4.png to match your file name)*
 
-## Tablet View
+### 2. Live Catalog Search Component (e.g., "Chocolate Cake" Query)
+A custom filtering layer reads input criteria natively to let users target specific bakery item cards in real time without refreshing the client browser window.
 
-![Tablet View](maddison-bakery/images/tablet-view.png)
-
-## Mobile View
-
-![Mobile View](maddison-bakery/images/mobile-view.png)
-
-Testing was completed using browser developer tools to ensure:
-
-* Responsive layouts
-* Proper scaling
-* Mobile usability
-* Readable typography
-* Accessible navigation
-* Functional forms
+#### UI Verification: Search Query Execution
+![Search Menu Feature](./images/image_4.png)
+*(Note: If your screenshot filename is different, rename image_4.png to match your file name)*
 
 ---
 
-# Sitemap
-
-Home → About Us → Menu → Contact Us → Order Now
-
-## Visual Sitemap
-
-![Maddison Bakery Sitemap](maddison-bakery/images/sitemap.png)
-
----
-
-# Comments in Code
-
-Detailed comments were added throughout the HTML and CSS files to explain:
-
-* Navigation sections
-* Hero sections
-* Forms
-* Footer structure
-* Layout sections
-* Responsive design areas
-
----
-
-# ChangeLog
-
-## Part 1 Corrections
-
-The following corrections were made based on Part 1 feedback:
-
-* Improved proposal documentation
-* Added additional references
-* Improved budget explanation
-*  Upload sitemap
-* Improved file structure
-* Fixed image paths
-* Improved semantic HTML structure
-* Added clearer comments
-* Improved page content consistency
-
-## Part 2 Improvements
-
-* Added external stylesheet
-* Added responsive media queries
-* Improved mobile responsiveness
-* Added sticky navigation
-* Added hamburger menu
-* Added active navigation states
-* Added hover effects and transitions
-* Added reusable CSS utility classes
-* Improved form design and layout
-* Improved order form usability
-* Improved typography hierarchy
-* Improved visual consistency
-* Added CSS variables
-* Added responsive grids
-* Improved accessibility with descriptive alt text
-* Added responsive testing evidence
-
----
-
-# AI Usage Acknowledgement
-
-Artificial intelligence tools were used to assist with documentation refinement, code explanation, responsive design guidance, and proofreading during the development of this academic project. All implementation, testing, editing, and final submission decisions were completed by myself.
-
----
-
-# References
-
-99designs. (n.d.). Website usability principles. Available at: https://99designs.com/blog/web-digital/website-usability-principles/
-
-Google Fonts. (n.d.). Fonts library. Available at: https://fonts.google.com/
-
-MDN Web Docs. (n.d.). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
-
-OpenAI. (2026). ChatGPT (GPT-5.5) [Large language model]. Available at: https://chat.openai.com/
-
-Unsplash. (n.d.). Free high-quality images. Available at: https://unsplash.com/
-
-W3Schools. (n.d.). HTML Responsive Web Design. Available at: https://www.w3schools.com/html/html_responsive.asp
-
----
-
-# Author
-
-Student Name: Chidobe Okoye
-
-Student Number: ST10500842
-
-Module: Web Development
-
-Project: Maddison Bakery Website – Part 2
+## 📂 Production File Architecture
+```text
+maddison-bakery/
+├── css/
+│   └── style.css            # Unified production layout styles & design tokens
+├── js/
+│   └── script.js           # Client-side validation, search, & mapping routines
+├── images/                 # Optimized graphic & media assets
+├── index.html              # Landing UI View
+├── about.html              # Brand Story Context Layout
+├── menu.html               # Searchable Menu & Lightbox Component
+├── contact.html            # Hardened Contact Form & Leaflet Map
+├── order.html              # Custom Order Request Processing Pipeline
+├── robots.txt              # Production Web Crawler Instruction Module
+└── sitemap.xml             # Canonical Index Search Index Mapping Matrix
